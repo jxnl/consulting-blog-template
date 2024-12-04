@@ -10,9 +10,23 @@ Create a professional consulting blog with the MkDocs Material theme.
    ```
 
 2. **Run Locally**: Start a local server to preview your site.
+
+   ### Standard Method
    ```bash
    mkdocs serve -w .
    ```
+
+   ### Apple Silicon Workaround
+   If you're using an Apple Silicon (M2/M3) Mac and experiencing issues with `libcairo2`, use Docker:
+
+   ```bash
+   docker-compose up --build
+   ```
+
+   This approach resolves compatibility problems by running MkDocs in a containerized environment. The provided `docker-compose.yml` and `Dockerfile` will:
+   - Install necessary dependencies
+   - Map port 8005 locally
+   - Provide a stable development environment
 
 3. **Deploy to GitHub Pages**: Go live with:
    ```bash
