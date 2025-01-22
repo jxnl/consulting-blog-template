@@ -15,4 +15,4 @@ Welcome to my technical blog where I share insights about:
 
 Subscribe to receive technical insights and best practices:
 
-[Subscribe to Updates](#) *(Add your newsletter signup link)*
+[Subscribe to Updates](#){ .md-button .md-button--primary } *(Add your newsletter signup link)*

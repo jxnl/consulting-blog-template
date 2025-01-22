@@ -1,12 +1,12 @@
-site_name: Site Name
-site_author: Author Name
-site_description: >-
-  Site Description
-repo_name: blog
-repo_url: https://github.com/jxnl/blog/
-site_url: https://jxnl.co/
+site_name: Site Name # TODO: update
+site_author: Author Name # TODO: update
+site_description: >- # TODO: update
+  Site Description  
+repo_name: blog # TODO: update
+repo_url: https://github.com/jxnl/blog/ # TODO: update
+site_url: https://jxnl.co/ # TODO: update
 edit_uri: edit/main/docs/
-copyright: Copyright &copy; 2024 Jason Liu 
+copyright: Copyright &copy; 2024 Jason Liu # TODO: update
 theme:
   name: material
   icon:
@@ -108,9 +108,9 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
-nav:
+nav: 
   - Home: 
-    - Introductions: 'index.md'
+    - Introductions: 'index.md' # TODO: update nav section if navigation changes indicated
   - Blog:
     - "blog/index.md"
 plugins:
@@ -139,10 +139,12 @@ extra:
     provider: google
     property: G-XXXX
   social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jxnlco # TODO: update link
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/jxnlco # TODO: add link
+      link: https://twitter.com/jxnlco # TODO: update link
     - icon: fontawesome/brands/github
-      link: https://github.com/jxnl # TODO: add link
+      link: https://github.com/jxnl # TODO: update link
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
@@ -150,4 +152,3 @@ extra_javascript:
   - javascripts/analytics.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-copyright: Copyright &copy; 2023 Jason Liu

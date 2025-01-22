@@ -27,6 +27,10 @@ Create a professional consulting blog with the MkDocs Material theme.
 - [ ] Set up [Cal.com](https://cal.com) and update links in `docs/index.md` and `docs/services.md`.
 - [ ] Add blog posts to `docs/blog/posts/`.
 
+### Blog Setup Walkthrough
+
+Please see [BlogSetup.md](./BlogSetup.md) for an example walkthrough of the steps used to implement this template as a github.io site with a custom domain.
+
 ## Crafting Effective Content
 
 ### Value Equation
